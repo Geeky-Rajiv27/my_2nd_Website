@@ -251,6 +251,13 @@ margin-left: 170px;
     border-radius: 7px;
 box-shadow: 10px -10px 20px #2884B4;
 }
+.box:hover{
+  scale: 1.05;
+  transition: 0.98s ease-out;
+  box-shadow: 0px 0px 10px #00FFFF, 
+   0px 0px 50px rgba(0, 255, 255, 0.5);
+
+}
 #box_1_content{
     font-size: 20px;
 font-family: 'Poppins', sans-serif;
